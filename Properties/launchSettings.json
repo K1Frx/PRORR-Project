@@ -2,7 +2,7 @@
   "profiles": {
     "PRORR": {
       "commandName": "Project",
-      "commandLineArgs": "4 example/task example/config"
+      "commandLineArgs": "16 C:\\Users\\Kamil\\Desktop\\prorr\\example\\function3 example/config"
     }
   }
 }

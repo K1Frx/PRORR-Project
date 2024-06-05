@@ -6,14 +6,16 @@ namespace PRORR.Implementation
     {
         private float mutationRate;
         private IRandomGenerator randomGenerator;
-        float mean;
-        float stdDev;
+        private float mean;
+        private float stdDev;
 
         public DefaultMutationController(float mutationRate, float mean, float stdDev, IRandomGenerator randomGenerator)
         {
 
             this.mutationRate = mutationRate;
             this.randomGenerator = randomGenerator;
+            this.mean = mean;
+            this.stdDev = stdDev;
         }
 
         public float GetMutationRate(int iteration)
